@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "darknote"
+version = "0.1.0"
+description = "A python framework for creating stunning, functional, lightweight ML and data dashboards. Created with htmx!"
+authors = ["Rishabh Singh <rishabhsingh@berkeley.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.3.2"
+escape = "^1.1"
+jinja2 = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
